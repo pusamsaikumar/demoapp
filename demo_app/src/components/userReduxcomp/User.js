@@ -6,19 +6,33 @@ import { Spinner } from "react-bootstrap";
 import OnCircleMouse from "../onMouseEvents/OnCircleMouse";
 import CursorFollower from "../onMouseEvents/CursorFollower";
 import CusorFollwoerOnMovseEvent from "../onMouseEvents/CusorFollwoerOnMovseEvent";
+import OnMouseMoveStateValuePosition from "../onMouseEvents/OnMouseMoveStateValuePosition";
 
 const User = () => {
   const getPostDetailsReducer = useSelector(
     (state) => state.getpostDetailsReducer
   );
 
+  // using ref attributes
   const circle = useRef(null);
 
-  const hanldeMouseMove = (event) => {
+  const hanldeMouseMoveRef = (event) => {
     if (circle.current) {
       circle.current.style.left = `${event.clientX - 25}px`;
       circle.current.style.top = `${event.clientY - 25}px`;
     }
+  };
+
+  // using state value:
+  const [position, setPosition] = useState({
+    x: 0,
+    y: 0,
+  });
+  const handleMouseMoveState = (event) => {
+    setPosition({
+      x: event.clientX,
+      y: event.clientY,
+    });
   };
 
   // Accessing specific values from `getpostDetailsReducer`
@@ -50,11 +64,13 @@ const User = () => {
 
   return (
     <div
-      onMouseMove={hanldeMouseMove}
+      // onMouseMove={hanldeMouseMoveRef} // using ref
+      onMouseMove={handleMouseMoveState}
       style={{ width: "100vw", height: "100vh", position: "relative" }}
     >
       {/* <CursorFollower /> */}
-      <CusorFollwoerOnMovseEvent ref={circle} />
+      {/* <CusorFollwoerOnMovseEvent ref={circle} />   */}
+      <OnMouseMoveStateValuePosition position={position} />
       <div className="border border-red-500  m-2 p-2 bg-black-100">
         <h2 className="bg-blue-500 text-gray p-2">
           Explain about redux stores and actions and reducers
