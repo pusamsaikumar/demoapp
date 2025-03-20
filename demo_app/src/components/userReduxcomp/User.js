@@ -9,10 +9,6 @@ import CusorFollwoerOnMovseEvent from "../onMouseEvents/CusorFollwoerOnMovseEven
 import OnMouseMoveStateValuePosition from "../onMouseEvents/OnMouseMoveStateValuePosition";
 
 const User = () => {
-  const getPostDetailsReducer = useSelector(
-    (state) => state.getpostDetailsReducer
-  );
-
   // using ref attributes
   const circle = useRef(null);
 
@@ -34,6 +30,9 @@ const User = () => {
       y: event.clientY,
     });
   };
+  const getPostDetailsReducer = useSelector(
+    (state) => state.getpostDetailsReducer
+  );
 
   // Accessing specific values from `getpostDetailsReducer`
   const getPostDetailsData = getPostDetailsReducer.getPostDataDetails;
