@@ -131,4 +131,16 @@
     width: 10rem;
     height: auto;
   }
+  .menu-btn {
+    margin-right: 5px !important;
+  }
+  .nav-content {
+    padding-right: 5px;
+  }
+}
+@media (max-width: 375px) {
+  .nav-content {
+    width: 420px;
+    padding: 10px;
+  }
 }

@@ -81,3 +81,42 @@ export const skillsData = [
     ],
   },
 ];
+
+export const experienceData = [
+  {
+    title: "React JS Developer",
+    date: "02/2024 - Present",
+    responsibilities: [
+      "Developed a demo admin portal using React JS and ASP.NET Core 8.",
+      "Designed and implemented user-friendly interfaces for the admin portal.",
+      "Collaborated with the team to meet project requirements and ensure a seamless user experience.",
+    ],
+  },
+  {
+    title: "API Developer - RSAMobileServices",
+    date: "01/2023 - 06/2023",
+    responsibilities: [
+      "Created and integrated APIs for RSAMobileServices using ASP.NET Core 6.",
+      "Ensured security and efficiency of APIs for optimal website performance.",
+      "Collaborated with cross-functional teams to maintain seamless integration.",
+    ],
+  },
+  {
+    title: "React JS Developer - Autopilot Project",
+    date: "03/2022 - 05/2022",
+    responsibilities: [
+      "Developed front-end features using React JS, Bootstrap, HTML, and CSS.",
+      "Implemented innovative design techniques to create coupons for clients.",
+      "Enhanced user engagement with a responsive and user-friendly interface.",
+    ],
+  },
+  {
+    title: "React JS Developer - Brand IQ",
+    date: "09/2021 - 02/2022",
+    responsibilities: [
+      "Developed the Brand IQ project using React JS, Bootstrap, and third-party libraries like Material UI and Redux.",
+      "Focused on validations and creating retailer rewards to enhance user experience.",
+      "Implemented cutting-edge solutions to improve project functionality.",
+    ],
+  },
+];

@@ -51,3 +51,8 @@
     width: 1.8rem;
   }
 }
+@media (max-width: 768px) {
+  .skillcard span {
+    font-size: 0.9rem;
+  }
+}
