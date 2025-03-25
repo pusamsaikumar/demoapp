@@ -37,3 +37,20 @@
   top: 0.3rem;
   left: -1rem;
 }
+@media (max-width: 768px) {
+  .workExperienceCard {
+    margin: 0;
+  }
+  .workExperienceCard h6 {
+    font-size: 0.95rem;
+  }
+  .workExperienceCard ul li {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .workExperienceCard {
+    padding: 20px;
+  }
+}
