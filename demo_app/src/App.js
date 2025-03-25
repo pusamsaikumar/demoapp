@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/Layout";
@@ -7,8 +6,8 @@ import CursorFollower from "./components/onMouseEvents/CursorFollower";
 function App() {
   return (
     <div
-      className="App"
-      style={{ width: "100vw", height: "100vh", position: "relative" }}
+
+    // style={{ width: "100vw", height: "100vh", position: "relative" }}
     >
       <BrowserRouter>
         <Layout />

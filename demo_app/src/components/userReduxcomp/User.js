@@ -7,6 +7,7 @@ import OnCircleMouse from "../onMouseEvents/OnCircleMouse";
 import CursorFollower from "../onMouseEvents/CursorFollower";
 import CusorFollwoerOnMovseEvent from "../onMouseEvents/CusorFollwoerOnMovseEvent";
 import OnMouseMoveStateValuePosition from "../onMouseEvents/OnMouseMoveStateValuePosition";
+import Navbar from "../portpolio/Navbar/Navbar";
 
 const User = () => {
   // using ref attributes

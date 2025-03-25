@@ -1,0 +1,53 @@
+.skillcard {
+  border-radius: 0.65rem;
+  border: 1.5px solid #6751ba;
+  padding: 2.5rem;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  backdrop-filter: blur(1rem);
+  background: rgba(22, 17, 47, 0.398);
+}
+.skillcard:hover,
+.skillcard.active {
+  background: linear-gradient(180deg, #aa94fe 0%, #7c5ef2);
+}
+.skillcard span {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.skill-icon {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  border: 1.5px solid #6852ba;
+  border-radius: 0.65rem;
+  background: #2a2252;
+}
+.skill-icon img {
+  width: 2.4rem;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 1025px) {
+  .skillcard {
+    padding: 2rem;
+  }
+  .skillcard span {
+    font-size: 1rem;
+  }
+  .skill-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .skill-icon img {
+    width: 1.8rem;
+  }
+}
