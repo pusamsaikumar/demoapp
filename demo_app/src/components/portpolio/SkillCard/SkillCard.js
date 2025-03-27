@@ -3,7 +3,7 @@ import "./skillcard.css";
 
 const SkillCard = ({ title, iconUrl, isActive, onClick }) => {
   return (
-    <div>
+    <div className="skillad">
       <div
         className={`skillcard  ${isActive ? "active" : ""}`}
         onClick={() => onClick()}

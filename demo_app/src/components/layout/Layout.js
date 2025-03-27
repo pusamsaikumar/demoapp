@@ -8,6 +8,7 @@ import Hero from "../portpolio/Hero/Hero";
 import Skills from "../portpolio/Skills/Skills";
 import WorkExperience from "../portpolio/workexperience/WorkExperience";
 import ContactMe from "../portpolio/ContactMe/ContactMe";
+import Footer from "../portpolio/Footer/Footer";
 
 const Layout = () => {
   return (
@@ -24,7 +25,9 @@ const Layout = () => {
         <Skills />
         <WorkExperience />
         <ContactMe />
+      
       </div>
+      <Footer />
     </>
   );
 };

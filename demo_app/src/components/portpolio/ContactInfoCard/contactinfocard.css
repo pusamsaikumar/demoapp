@@ -28,3 +28,23 @@
     font-size: 0.9rem;
     font-weight: 400;
 }
+@media (max-width:426px){
+    .contactDetailsCard {
+       
+        width: 380px ;
+        /* margin-left: -35px; */
+    }
+   
+}
+
+@media (max-width:376px){
+    .contactDetailsCard {
+       
+        width: 335px;
+        
+      
+    }
+   .contactDetailsCard p {
+    font-size: 12px;
+   }
+}

@@ -87,8 +87,13 @@
     flex-direction: column-reverse;
     gap: 3rem;
   }
-  .skills,
+  /* .skills,
   .skills-info {
     width: 100vw;
-  }
+  } */
+   .skills{
+    display: flex;
+    flex-direction: column;
+   }
 }
+

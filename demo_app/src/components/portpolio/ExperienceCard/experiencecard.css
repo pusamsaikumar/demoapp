@@ -39,7 +39,7 @@
 }
 @media (max-width: 768px) {
   .workExperienceCard {
-    margin: 0;
+    /* margin: 0; */
   }
   .workExperienceCard h6 {
     font-size: 0.95rem;

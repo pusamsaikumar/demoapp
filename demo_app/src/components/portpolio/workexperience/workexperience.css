@@ -54,3 +54,9 @@
     right: -1rem;
   }
 }
+
+@media(max-width:376px) {
+  .experience-container {
+    width: auto;
+  }
+}

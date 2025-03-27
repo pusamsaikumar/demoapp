@@ -12,3 +12,35 @@
  gap: 3rem;
 
 }
+@media(max-width:768px){
+    .contactContent {
+        flex-direction: column-reverse;
+    }
+    .contactContainer h5{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:426px){
+    .contactContent {
+       
+        width: 380px ;
+        margin-left: -40px;
+    }
+   
+}
+
+@media (max-width:376px){
+    .contactContainer h5 {
+        margin-bottom: 1rem;
+        text-align: left;
+        margin-left: -40px;
+    }
+    .contactContent {
+       
+        width: 340px;
+      
+    }
+   
+}

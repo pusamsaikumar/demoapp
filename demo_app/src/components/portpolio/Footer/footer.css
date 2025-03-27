@@ -1,0 +1,13 @@
+.footer-container{
+    text-align: center;
+    color:#fff;
+    font-size: 0.8rem;
+    padding: 1rem;
+    background: linear-gradient(90deg,#3D3072 0%,#423477 100%);
+    width: 100vw;
+}
+@media (max-width:325px){
+    .footer-container{
+        width: 440px;
+    }
+}

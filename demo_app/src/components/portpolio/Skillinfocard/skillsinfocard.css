@@ -67,3 +67,10 @@
     padding: 1.5rem;
   }
 }
+
+@media (max-width:376px) {
+  .skillsInfoCard{
+   
+    width: 340px;
+  }
+}
