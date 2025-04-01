@@ -9,25 +9,28 @@ import Skills from "../portpolio/Skills/Skills";
 import WorkExperience from "../portpolio/workexperience/WorkExperience";
 import ContactMe from "../portpolio/ContactMe/ContactMe";
 import Footer from "../portpolio/Footer/Footer";
+import BackgroundVideo from "../BackgroundVideo/BackgroundVideo";
 
 const Layout = () => {
   return (
     <>
       {/* <Header /> */}
-      <NavbarH />
+      {/* <NavbarH />
       <div className="container-app">
-        {/* <Routes>
+       <Routes>
      
           <Route path="/hero" element={<Hero />} />
           <Route path="/skills" element={<Skills />} />
-        </Routes> */}
+        </Routes> 
         <Hero />
         <Skills />
         <WorkExperience />
         <ContactMe />
       
       </div>
-      <Footer />
+      <Footer /> */}
+      <BackgroundVideo />
+      
     </>
   );
 };
